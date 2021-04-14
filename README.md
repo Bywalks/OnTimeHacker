@@ -24,7 +24,7 @@ python3 OnTimeHacker.py
 
 ### 如何实现微信通知？
 
-进阶版下载好后，在 503 行代码中添加上你自己的 Server酱 key 就行了， Server酱 key 的申请地址为：[http://sc.ftqq.com/](http://sc.ftqq.com/)
+下载文件后，在代码中添加上你自己的 Server酱 key 就行了， Server酱 key 的申请地址为：[http://sc.ftqq.com/](http://sc.ftqq.com/)
 
 ### 如何实现公告监测？
 
@@ -40,4 +40,3 @@ python3 OnTimeHacker.py
 
 ### 参考 ###
 本想自己写一个这样的工具，查询后发现有小伙伴已经写了，拿小伙伴的代码改一改自己中意的SRC和些许功能，原版@teamssix
-
