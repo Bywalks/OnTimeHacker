@@ -341,7 +341,7 @@ def bytedance():
 if __name__ == '__main__':
     print(banner)
     global key
-    key = 'SCU169541Tcabb30e8967856970316f8665d2645af6076cb4f57f05'  # 填写上你 Server酱的 key，key 申请地址：http://sc.ftqq.com/
+    key = ''  # 填写上你 Server酱的 key，key 申请地址：http://sc.ftqq.com/
     number = 3
     if key == '':
         print('请在代码中填写上你 Server酱的 key，key 申请地址：http://sc.ftqq.com/')
