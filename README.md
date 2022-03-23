@@ -49,4 +49,4 @@ python3 OnTimeHacker.py
 ![Notice](./image/Notice.jpg)
 
 ### 参考 ###
-本想自己写一个这样的工具，查询后发现有小伙伴已经写了个爬取当年公告的，拿小伙伴的代码改一改，使之符合自己的需求，原版[@teamssix](http://sc.ftqq.com/)
+本想自己写一个这样的工具，查询后发现有小伙伴已经写了个爬取当年公告的，拿小伙伴的代码改一改，使之符合自己的需求，原版[@teamssix](https://github.com/teamssix)
