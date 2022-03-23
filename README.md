@@ -1,8 +1,8 @@
-# OnTimeHacker V1.0 #
+# OnTimeHacker V1.1 #
 
 **OnTimeHacker** 是一个爬取各大SRC当日公告，并通过微信通知的小工具
 
-OnTimeHacker目前版本为1.0，已支持24家SRC
+OnTimeHacker目前版本为1.1，已支持23家SRC
 ```
 V 1.0 已支持SRC：
 360、爱奇艺、阿里、百度、哔哩哔哩、贝壳、Boss、58、菜鸟、滴滴、斗鱼、
@@ -11,6 +11,7 @@ V 1.0 已支持SRC：
 V 1.1 更新日志:
     新增异常处理
     删除原饿了么监测：原饿了么SRC归并到阿里SRC
+    更新字节、快手监听接口
 ```
 
 ------
