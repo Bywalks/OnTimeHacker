@@ -46,7 +46,7 @@ def Send_VX(src_name, src_title):
     notice = "[+]%s今日存在公告通知：%s" %(src_name,src_title)
     print(notice)
     try:
-        requests.get('https://sc.ftqq.com/%s.send?text=%s&desp=%s' % (key,src_name,src_title))
+        requests.get('https://sc.ftqq.com/%s.send?text=%s&desp=%s' % (key,src_name,src_title), timeout=30)
     except Exception as e:
         print(e)
 
@@ -128,7 +128,7 @@ def ke():
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
             'Referer': 'https://security.ke.com/notices'
     }
-        r = requests.post(url, headers=headers, data={"page": 1})
+        r = requests.post(url, headers=headers, data={"page": 1}, timeout=30)
         r_json = json.loads(r.text)
         notice_list = r_json['data']['list']
         src_time = notice_list[0]['createTime'].split(' ')[0]
@@ -220,7 +220,7 @@ def guazi():
         headers = {
             'Content-Type': 'application/x-www-form-urlencoded',
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36'}
-        r = requests.post(url, headers=headers, data="pageNo=1")
+        r = requests.post(url, headers=headers, data="pageNo=1", timeout=30)
         r_json = json.loads(r.text)
         notice_list = r_json['data']['list']
         src_time = notice_list[0]['publishDate'].split(' ')[0]
